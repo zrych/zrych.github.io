@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.ttf);
+}
+
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url(Akzidenz-grotesk-black.ttf);
+}
+
+
+body {
+    background-image: url(picture.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    color: white;
+    font-size: 60px;
+}
+
+
+.logo{
+    font-size: 35px;
+    font-family: mont;
+    animation: logo 2s 1;
+}
+
+@keyframes logo {
+    0%{
+        opacity: 0%;
+    }
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2px;
+    padding-left: 7%;
+    padding-right: 3%;
+    font-family: mont, arial;
+}
+
+span{
+    color: #929292;
+}
+
+
+.home{
+    animation: home 3s 1;
+
+}
+
+@keyframes home {
+    0%{
+        opacity: 0%;
+    }
+}
+.aboutme{
+    animation: aboutme 3s 1;
+}
+@keyframes aboutme {
+    0%{
+        opacity: 0%;
+    }
+}
+
+.info{
+    animation: info 3s 1;
+}
+@keyframes info {
+    0%{
+        opacity: 0%;
+    }
+}
+
+button{
+    color: white;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-family: eurostile;
+}
+
+.content{
+    color: white;
+    font-family: montl;
+    padding-left: 7%;
+    top: 50%;
+}
+
+h1{
+    font-family: montl;
+    font-size: 20px;
+}
