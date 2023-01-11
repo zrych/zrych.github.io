@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.ttf);
+}
+
+
+@font-face {
+    font-family: 'Grotesk';
+    src: url(Akzidenz-grotesk-black.ttf);
+}
+
+
+body {
+    color: white;
+    background-image: url(picture.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    overflow: hidden;
+}
+
+
+.logo{
+    font-size: 35px;
+    font-family: mont;
+    animation: logo 2s 1;
+}
+
+@keyframes logo {
+    0%{
+        opacity: 0%;
+    }
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2px;
+    padding-left: 7%;
+    padding-right: 3%;
+    font-family: mont, arial;
+}
+
+span{
+    color: #929292;
+}
+
+
+.home{
+    animation: home 3s 1;
+
+}
+
+@keyframes home {
+    0%{
+        opacity: 0%;
+    }
+}
+.aboutme{
+    animation: aboutme 3s 1;
+}
+@keyframes aboutme {
+    0%{
+        opacity: 0%;
+    }
+}
+
+.info{
+    animation: info 3s 1;
+}
+@keyframes info {
+    0%{
+        opacity: 0%;
+    }
+}
+.about{
+    text-align: center;
+    padding-right:10%;
+    font-family: coolvetica;
+    color: #ffffff;
+    position: relative;
+    margin-bottom: 10%;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+.picturea{
+    position: relative;
+    left: 10%;
+    z-index: 1;
+    text-align: right;
+}
+.picf{
+    position: relative;
+    z-index: 1;
+    height: 580px;
+    width: 470px;
+    bottom: -80px;
+    left: 10%;
+    float: left;
+    border-radius: 20%;
+
+}
+@keyframes pic {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+    
+}
+.pics{
+    position: absolute;
+    z-index: 2;
+    height: 580px;
+    width: 470px;
+    top: 21%;
+    left: 10.4%;
+    float: left;
+    border-radius: 20%;
+    animation: pic 3s infinite;
+    animation-direction: alternate-reverse;
+}
+.bod{
+    text-align: center;
+    
+}
