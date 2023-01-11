@@ -79,53 +79,52 @@ span{
 }
 .about{
     text-align: center;
-    padding-right:20%;
+    padding-right: 21%;
     font-family: coolvetica;
     color: #ffffff;
     position: relative;
     font-size: 60%;
     letter-spacing: 4px;
 }
-.picf{
-    position: relative;
-    z-index: 1;
-    height: 300px ;
-    width: 230px ;
-    top: 13.5px;
-    left: 10%;
-    float: left;
-    border-radius: 20%;
-}
-@keyframes pic {
-    0%{
-        opacity: 100%;
-    }
-    50%{
-        opacity: 100%;
-    }
-    100%{
-        opacity: 0%;
-    }
-}
-
-.pics{
-    position: absolute;
-    z-index: 2;
-    height: 300px ;
-    width: 230px ;
-    top: 21%;
-    left: 10.4%;
-    float: left;
-    border-radius: 20%;
-    animation: pic 3s infinite;
-    animation-direction: alternate-reverse;
-}
 .bod{
     text-align: justify;
     font-size: medium;
-    padding-left: 38%;
+    padding-left: 28%;
     position: absolute;
     letter-spacing: 2px;
     font-family: helvetica;
-    margin-top: -4%;
+    margin-top: -3%;
+}
+.picf{
+    position: relative;
+    left: 5%;
+    top: -120px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    animation: pic 3s infinite;
+}
+.pics{
+    position: relative;
+    left: 5%;
+    top: 50%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    z-index: 1;
+    overflow-wrap: break-word;
+}
+.bgimg{
+    background-color: #151a1a;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 10px;
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-top: -2%;
+    border-radius: 30px;
+    animation: bg 3s 1;   
+}
+.bod2 {
+    background-color: black;
 }
